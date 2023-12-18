@@ -1,0 +1,12 @@
+<div class="deja_view_card">
+  <div class="deja_view_text">
+    <%= deja_view_helper.message_text %>
+  </div>
+  <div class="deja_view_buttons">
+    <%= link_to deja_view_helper.new_button_text, deja_view_helper.new_record_url, class: "deja_view_new_btn_link" %>
+    <span class="deja_view_divider">
+      or
+    </span>
+    <%= link_to deja_view_helper.edit_button_text, deja_view_helper.edit_record_url, class: "deja_view_edit_btn_link" %>
+  </div>
+</div>
